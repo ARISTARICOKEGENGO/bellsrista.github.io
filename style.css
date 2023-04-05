@@ -1,0 +1,386 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Fasthand&family=Gloock&family=Lobster&family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*HOME SECTION*/
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/home-bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+/*header section*/
+ header{
+    display: flex;
+    justify-content: space-between;
+ }
+/*logo section*/
+
+.logo{
+ height: 150px;
+}
+
+/*navigation section*/
+ul li{
+ list-style: none;
+ display: inline-block;
+ padding: 20px;
+ padding-top: 50px;
+ font-size: 20px;
+ color: white;
+ font-weight: bold;
+}
+
+ul li:hover{
+    color: aqua;
+
+}
+
+/*tiltle section*/
+.tittle{
+    margin-left: 22%;
+    margin-top: 10%;
+}
+.tittle h1{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 145, 0);
+    font-size: 4.8rem;
+   position: absolute;
+   margin-left: -6%;
+    
+}
+.tittle  h3{
+    font-family: 'Fasthand', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    position: absolute;
+    padding-left: 8%;
+    margin-top: 5%; 
+    width:100px;
+}
+.tittle  h2{
+    color: white;
+    font-size: 6rem;
+    padding-left: 12%;
+    margin-top: 5%;
+    position: absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tittle  h4{
+    color: rgb(255, 115, 0);
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    padding-left: 43%;
+    margin-top: 11%;
+    position: absolute;
+    
+}
+
+/*CONTACT US SECTION*/
+
+.contact-us{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/contact.bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.message{
+    margin-top: 9%;
+    margin-left: 4%;
+}
+.message h3{
+    color: rgb(23, 180, 201) ;
+    margin-left: 13%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    
+}
+
+form{
+    width: 40%;
+}
+#fullname{
+ width: 100%;
+ margin-top: 20px;
+ height: 50px;
+ border-radius: 10px;
+ border: none;
+ padding-left: 10px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#fullname:hover{
+    border: 2px blueviolet;
+    border: 2px solid; 
+    outline: none;
+}
+
+#fullname:focus{
+    border: 2px blueviolet;
+    border: 2px solid; 
+    outline: none;
+}
+
+#email{
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+#email:hover{
+    border: 2px blueviolet;
+    border: 2px solid; 
+    outline: none;
+}
+
+#email:focus{
+    border: 2px blueviolet;
+    border: 2px solid; 
+    outline: none;
+}
+#message{
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+#message:hover{
+    border: 2px blueviolet;
+    border: 2px solid; 
+    outline: none;
+}
+
+#message:focus{
+    border: 2px blueviolet;
+    border: 2px solid; 
+    outline: none;
+}
+
+#submit-status{
+    color: rgb(50, 248, 0);
+    font-size: 1.4rem;
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: -14%;
+}
+
+#submit-btn{
+margin-top:46px;
+margin-left: 26%;
+width:45%;
+height:50px;
+background:transparent;
+border: 2px solid white;
+color: white;
+font-size: 18px;
+border-radius: 20px;
+
+}
+#submit-btn:hover{
+   background:transparent;
+   border: none;
+   background-color:rgb(38, 0, 255);
+   
+}
+
+.center-vertical-line{
+    border: solid 2px rgb(255, 166, 0);
+    height: 70vh;
+    width: 2px;
+    position: absolute;
+    margin-top: -34%;
+    margin-left: 47%;
+}
+
+.social-media{
+    margin-left: 68%;
+    margin-top: -2%;
+}
+
+.social-media , .fa-whatsapp , .fa-instagram , .fa-facebook, .fa-pinterest , .fa-envelope {
+    padding-left: 10px;
+}
+
+.location{
+    margin-top: -35%;
+    margin-left: 74%;
+    font-size: 20px;
+    position: absolute;
+}
+
+.location-details{
+    margin-top: 10%;
+    margin-left: -21%;
+    color: rgb(243, 240, 238);
+    font-weight: bold;
+}
+
+.opening-hours{
+    margin-top:20%;
+}
+
+.opening-time{
+    margin-left: -45%;
+    margin-top: 10%;
+    color: rgb(218, 152, 21);
+    font-style: italic;
+}
+.opening-hours h3{
+    padding-top: 20px;
+}
+
+
+
+/*SPECIAL OFFERS SECTION*/
+
+.special-offers{
+    background-color: rgb(107, 103, 109);
+    overflow: hidden ;
+ 
+}
+.special-offers h2{
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    margin-left: 45%;
+    margin-top: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.horizontal-underline{
+    background-color: rgb(141, 14, 14) ;
+    width: 70px;
+    height:3px;
+    margin-left:48%;
+    border-radius: 10px;
+    margin-top: 5px;
+   
+    
+  
+}
+.offer1{
+    margin-top: 5%;
+    margin-left: -35%;
+    position: absolute;
+    box-shadow: 2px 3px 4px 1px;
+}
+.bager{
+    height: 300px;  
+}
+.offer3{
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    box-shadow: 2px 1px 4px 1px;
+}
+
+.indoor-pool{
+    height: 300px;
+    height: 300px;   
+    margin-left: 53%;
+}
+
+
+.bed{
+    height: 300px; 
+}
+.offer-tag-container{
+    margin-top: 2%;
+    position: absolute;
+    margin-left: -39%;
+}
+.offer-tag{
+    height: 250px;
+}
+.offer-tag-container2{
+    position: absolute;
+}
+.offer-tag2{
+    height: 250px; 
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.offer-info{
+    position: absolute;
+    margin-top:30%;
+    margin-left:-10%;
+    font-size: 1.4rem;
+    color: gold;
+    font-family:fantasy;
+
+}
+
+span{
+    color: rgb(163, 12, 12);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.off-tag-container{
+    position: absolute;
+    margin-left: -46%;
+    margin-top:16%;
+}
+
+
+
+/*GALLERY SECTION*/
+
+
+.pic1{
+  height: 300px;  
+  padding: 10px;
+}
+.pic2{
+    height: 350px;  
+    width: 400px;
+    position: absolute;
+    padding: 10px;
+    margin-top: 21%;
+    
+  }
+.pic4{
+    height: 600px;  
+    width: 400px;
+    position: absolute;
+    padding: 10px;
+    margin-left: -1%;
+    margin-top: 2%;
+  }
+  .pic3{
+    height: 300px; 
+    width: 550px; 
+    position: absolute;
+    padding: 10px;
+    margin-left: 27%;
+  }
+  .pic5{
+    height: 350px;  
+    position: absolute;
+    padding: 10px;
+    margin-left: -32%;
+    margin-top: 21%;
+  }
+  .pic6{
+    height: 350px;  
+    width: 550px;
+    position: absolute;
+    padding: 10px;
+    margin-left: 27%;
+    margin-top: 21%;
+    
+  }
